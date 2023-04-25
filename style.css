@@ -142,3 +142,9 @@ p.warning a.more:hover {
   right: -100%;
   bottom: -100%;
 }
+img{
+  height: 128px;
+  width: 128px;
+  padding: 10px;
+
+}
