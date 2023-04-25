@@ -13,31 +13,7 @@
   --transition-style: ease-in-out;
   --container-max-width: 640px;
 }
-body {
-  background: var(--background-page);
-  font-family: var(--font-family);
-  font-size: var(--font-size);
-  color: var(--color-font);
-}
-p.warning {
-  text-align: center;
-  line-height: 2;
-  margin: 0 auto;
-  font-size: 14px;
-  max-width: var(--container-max-width);
-  color: #fff;
-}
-p.warning a {
-  background: #45ba04;
-  color: #fff;
-  padding: 0.2rem 0.7rem;
-  border-radius: 3px;
-  white-space: nowrap;
-  text-decoration: none;
-}
-p.warning a.more:hover {
-  background: #3bacff;
-}
+
 .container {
   background: var(--background-container);
   box-shadow: 0 0 16px rgba(0, 0, 0, 1);
@@ -142,7 +118,7 @@ p.warning a.more:hover {
   right: -100%;
   bottom: -100%;
 }
-img{
+.foto_prod{
   height: 128px;
   width: 128px;
   padding: 10px;
